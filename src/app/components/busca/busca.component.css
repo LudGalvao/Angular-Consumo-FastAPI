@@ -1,0 +1,23 @@
+.texto-1{
+    margin-left: 800px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 3em;
+    text-shadow:  
+    -2px -2px 0 white,  
+     2px -2px 0 white,  
+    -2px  2px 0 white,  
+     2px  2px 0 white;
+}
+
+.texto-2{
+    margin-left: 950px;
+    margin-top: -40px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 3em;
+    text-shadow:  
+    -2px -2px 0 white,  
+     2px -2px 0 white,  
+    -2px  2px 0 white,  
+     2px  2px 0 white;
+
+}
