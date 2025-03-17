@@ -41,3 +41,22 @@
     border: 2px solid black;
     caret-color: transparent; 
 }
+
+.botao{
+    margin-left: 47%;
+    margin-top: 20px;
+}
+
+::ng-deep .botao button {
+    background-color: black !important; 
+    color: white !important; 
+    font-size: 1.2em; 
+    padding: 10px 20px; 
+    border-radius: 32px; 
+    border: solid black; 
+    cursor: pointer; 
+}
+
+::ng-deep .botao button:hover {
+    background-color: black !important;
+}
