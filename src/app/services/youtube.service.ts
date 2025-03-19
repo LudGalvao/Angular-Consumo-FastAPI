@@ -13,5 +13,12 @@ export class YoutubeService {
 
   constructor(private http: HttpClient) {}
 
-  
+  downloadMp3(youtubeUrl: string): Observable<Blob>{
+    const params = new HttpParams().set('youtube_url', youtubeUrl);
+
+    return this.http.get(`${this.apiUrl}/download_audio`, {
+      params,
+      responseType: 'blob',
+    });
+  }
 }
