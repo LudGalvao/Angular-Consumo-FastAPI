@@ -4,10 +4,10 @@
 </div>
 
 <div class="input">
-    <input type="text" pInputText formControlName="text" placeholder="Cole o link do YouTube aqui"/>
+    <input type="text" pInputText [formControl]="youtubeUrl" placeholder="Cole o link do YouTube aqui" />
 </div>
 
 
 <div class="botao">
-    <p-button label="Baixar mp3"/>
+    <p-button label="Baixar MP3" (click)="baixarMp3()"></p-button>
 </div>
